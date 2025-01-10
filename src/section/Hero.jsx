@@ -10,6 +10,11 @@ import { calculateSizes } from '../constants';
 import Target from '../components/Target';
 import ReactLogo from '../components/ReactLogo';
 import Cube from '../components/Cube';
+import Rings from '../components/Rings';
+import HeroCamera from '../components/HeroCamera';
+import Button from '../components/Button';
+// import { someModule } from "module"; // Ensure the module exists.
+
 const Hero = () => {
 
   // const  x = useControls('HackersRoom', {
@@ -78,7 +83,8 @@ const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
           makeDefault // Ensures this camera is the default
           position={[0, 0, 20]} // Position the camera
          />
-          <HackerRoom 
+         <HeroCamera isMobile={isMobile}>
+<HackerRoom 
            
             position={sizes.deskPosition}
             scale={sizes.deskScale}
@@ -87,10 +93,13 @@ const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
             // rotation={[x.rotationX,  x.rotationY, x.rotationZ]}
             // scale={[x.scale,  x.scale, x.scale]}
           />
+         </HeroCamera>
+          
           <group>
             <Target position={sizes.targetPosition}/>
             <ReactLogo position={sizes.reactLogoPosition}/>
             <Cube position={sizes.cubePosition} />
+            <Rings position={sizes.ringPosition}/>
           </group>
           <ambientLight intensity={1} />
           <directionalLight  position={[10, 10, 10]}  intensity={0.5}/>
@@ -98,6 +107,13 @@ const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
       </Canvas>
     </div>
+
+      <div className='absolute bottom-7 left-0 right-0 w-full z-101 c-space'>
+          <a href='#contact' className='w-fit'>
+               <Button  name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
+          </a>
+
+      </div>
       
     </section>
    )
