@@ -258,31 +258,47 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 };
 
 export const workExperiences = [
+  // {
+  //   id: 1,
+  //   name: 'Quecko',
+  //   pos: 'Front-End Developer',
+  //   duration: '2024 - Present',
+  //   title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+  //   // icon: '/assets/framer.svg',
+  //   icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz4v6SP_kYRqCDWhrIfWEVdJx5j9SWqOHbzw&s',
+  //   animation: 'victory',
+  // },
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
-    animation: 'victory',
+    name: 'Quecko',
+    pos: 'Front-End Developer',
+    duration: '2024 - Present',
+    title: "At Quecko, I specialize in developing cutting-edge front-end solutions for Web3 applications. Using technologies like Web3.js and React.js, I create dynamic, responsive, and blockchain-integrated user experiences.",
+    icon: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz4v6SP_kYRqCDWhrIfWEVdJx5j9SWqOHbzw&s',
+    animation: 'victory'
   },
+
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'PredictApps',
+    pos: 'Web Developer', 
+    duration: '2023 - 2024',
+    title: 'At PredictApps, I work as a UI/UX Developer with expertise in Front-End Development, focusing on building intuitive and visually engaging applications. My responsibilities include',
+    // title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+    // icon: '/assets/figma.svg',
+    icon: 'https://play-lh.googleusercontent.com/auFTPcn3ig-8d3QVVrfSfM6yOgSSpcLnGEfISfvCjFPoL1LnJzNr_z-UO17kQkroClY',
+
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Al Dinas Group',
+    pos: 'Construction Project Manager',
+    duration: '2018 - 2022',
+    title: "As a Construction Project Manager at Al Dinas Group, I oversaw the planning, design, and construction of commercial and residential projects. I managed project budgets, schedules, and resources.",
+    // title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+    icon: 'https://scontent.fisb5-2.fna.fbcdn.net/v/t39.30808-6/387840286_739298998214162_7820298499800622489_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHFqWtmLX8cgzGuinjzW1C6tMlp5NA1Xuq0yWnk0DVe6vffIU85n39ZBAyIIQkTL2LNhrrtMrA7hIkNChhQA4Ak&_nc_ohc=lYZ5rJqK--cQ7kNvgHgFMsd&_nc_oc=AdhdOOrvlGIV2T9AkM2RPQqfI4JHHMhDCwQmT8ncowQw3MpSosvLhs_RKcFRw4LmLQY&_nc_zt=23&_nc_ht=scontent.fisb5-2.fna&_nc_gid=Agxn2e9LAWlXK6qfOcmzYGb&oh=00_AYAbwjGfHbox74dCpjuyipD7YAsXmxtEG-wXHZnmVXpgnQ&oe=67899133',
+    // icon: '/assets/notion.svg',
     animation: 'salute',
   },
 ];
