@@ -65,7 +65,6 @@ export function HackerRoom(props) {
     return <CanvasLoader />; // Show loading screen while resources are being loaded
   }
   
-  
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.screen_screens_0.geometry} material={materials.screens}>

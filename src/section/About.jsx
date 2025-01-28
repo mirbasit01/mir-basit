@@ -25,9 +25,9 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I’m Abdul Basit</p>
               <p className="grid-subtext">
-                With 2 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
-              </p>
+    With 2 years of experience, I have honed my skills in both frontend and backend development, creating dynamic
+    and responsive websites.
+  </p>
             </div>
           </div>
         </div>
@@ -37,11 +37,17 @@ const About = () => {
             <img src="assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Tech Stack</p>
+              {/* <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
                 I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications
-              </p>
+              </p> */}
+               <p className="grid-headtext">Tech Stack</p>
+  <p className="grid-subtext">
+    I specialize in a variety of languages, frameworks, and tools such as HTML, CSS, Bootstrap 5, Tailwind CSS, JavaScript,
+    React.js, Next.js, Web3.js, Smart Contract Integration, and API integration, allowing me to build robust and scalable
+    applications.
+  </p>
             </div>
           </div>
         </div>
@@ -67,11 +73,19 @@ const About = () => {
 /> */}
 
             </div>
-            <div>
+            {/* <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
               <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
-            </div>
+            </div> */}
+            <div>
+  <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
+  <p className="grid-subtext">
+    Based in Rijeka, Croatia, I am open to remote work worldwide. My strong ability to adapt to different time zones and work both independently and collaboratively ensures smooth communication and project success.
+  </p>
+  <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+</div>
+
           </div>
         </div>
 
@@ -79,13 +93,20 @@ const About = () => {
           <div className="grid-container">
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
-            <div>
+            {/* <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
                 I love solving problems and building things through code. Programming isn&apos;t just my
                 profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
               </p>
-            </div>
+            </div> */}
+            <div>
+  <p className="grid-headtext">My Passion for Coding</p>
+  <p className="grid-subtext">
+    I love solving problems and building things through code. Programming isn&apos;t just my profession—it&apos;s my passion. I enjoy exploring new technologies and enhancing my skills. With over 2 years of experience in front-end development, I am always eager to learn and improve. My journey in coding has been filled with exciting challenges, and I strive to create impactful, user-friendly applications that make a difference.
+  </p>
+</div>
+
           </div>
         </div>
 
